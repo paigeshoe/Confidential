@@ -8,7 +8,7 @@ Web Audio API: Applied to manipulate audio filters and visualize audio in real-t
 HTML Canvas: Used for rendering the audio waveform.
 CSS (Flexbox): Styling to create a modern, responsive user interface.
 
-#🧩 Project Structure
+# 🧩 Project Structure
 src/AudioStreamer.js:
 
 Manages WebRTC peer-to-peer audio streaming.
@@ -25,14 +25,14 @@ src/App.css:
 
 Custom styles for a modern and responsive user interface.
 
-#🎨 UI Design
+# 🎨 UI Design
 The app uses a clean, minimal design with a responsive layout. Some key UI design choices:
 
 Centered Layout: The main elements (audio player, buttons, and canvas) are centered for clarity and focus.
 Buttons: Large, interactive buttons with hover effects for toggling audio filters.
 Waveform Visualization: Real-time audio waveform displayed on a canvas, with smooth transitions.
 
-#🧪 Approach and Challenges
+# 🧪 Approach and Challenges
 Approach:
 Audio Streaming: WebRTC was used to handle the core requirement of streaming audio between two users. The RTCPeerConnection API manages the connection, and getUserMedia() captures audio from the microphone.
 
